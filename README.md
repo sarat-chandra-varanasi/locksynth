@@ -26,11 +26,11 @@ Each of these predicates in seq.pl are indexed by the data structure name: list 
 2) Data structure theory should be provided in a separate .lp file
     For example list.lp contains the data structure theory for Linked Lists. 
                 ext_tree.lp contains the theory for External BSTs
-    Note: if the theory file name is <DS>.lp then the data structure knowledge in seq.pl should be indexed by <DS>
+    Note: if the theory file name is DS.lp then the data structure knowledge in seq.pl should be indexed by DS
   
 3) Finally, running locksynth is easy:
      
-     ./locksynth <Data Stucture>
+     ./locksynth Data_Structure
    
     For example, given sample list.lp and seq.pl 
    
